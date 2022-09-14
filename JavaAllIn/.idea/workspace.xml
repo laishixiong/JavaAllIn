@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45a6b75d-7fcd-45d7-98c4-1a7228d9213c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CvYf5GePxJ8qLTNlLp0lLKyXfb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunManager" selected="Application.ScaleUtil">
+    <configuration name="Ascll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsx.codec.Ascll" />
+      <module name="StrCodec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsx.codec.Main" />
+      <module name="StrCodec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.Main" />
+      <module name="Genericity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScaleUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsx.codec.util.ScaleUtil" />
+      <module name="StrCodec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unicode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsx.codec.util.Unicode" />
+      <module name="StrCodec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsx.codec.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScaleUtil" />
+        <item itemvalue="Application.Unicode" />
+        <item itemvalue="Application.Ascll" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a6b75d-7fcd-45d7-98c4-1a7228d9213c" name="Default Changelist" comment="" />
+      <created>1659684625391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659684625391</updated>
+      <workItem from="1659684630096" duration="2138000" />
+      <workItem from="1662108989580" duration="13717000" />
+      <workItem from="1662368013028" duration="1292000" />
+      <workItem from="1662619308670" duration="25381000" />
+      <workItem from="1663052381739" duration="3415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="760" y="192" key="#com.intellij.ide.util.MemberChooser" timestamp="1662109362133">
+      <screen x="0" y="0" width="1910" height="968" />
+    </state>
+    <state x="760" y="192" key="#com.intellij.ide.util.MemberChooser/0.0.1910.968@0.0.1910.968" timestamp="1662109362133" />
+    <state x="1093" y="133" width="634" height="737" key="#xdebugger.evaluate" timestamp="1663058004122">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state x="1090" y="285" key="#xdebugger.evaluate/0.0.1910.968@0.0.1910.968" timestamp="1662175540546" />
+    <state x="1093" y="133" width="634" height="737" key="#xdebugger.evaluate/0.0.1916.968@0.0.1916.968" timestamp="1663058004122" />
+    <state x="737" y="242" key="FileChooserDialogImpl" timestamp="1662690969926">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state x="735" y="242" key="FileChooserDialogImpl/0.0.1910.968@0.0.1910.968" timestamp="1662370896587" />
+    <state x="737" y="242" key="FileChooserDialogImpl/0.0.1916.968@0.0.1916.968" timestamp="1662690969926" />
+    <state width="1873" height="274" key="GridCell.Tab.0.bottom" timestamp="1663057871114">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1910.968@0.0.1910.968" timestamp="1662428259346" />
+    <state width="1873" height="274" key="GridCell.Tab.0.bottom/0.0.1916.968@0.0.1916.968" timestamp="1663057871114" />
+    <state width="1873" height="274" key="GridCell.Tab.0.center" timestamp="1663057871114">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1910.968@0.0.1910.968" timestamp="1662428259345" />
+    <state width="1873" height="274" key="GridCell.Tab.0.center/0.0.1916.968@0.0.1916.968" timestamp="1663057871114" />
+    <state width="1873" height="274" key="GridCell.Tab.0.left" timestamp="1663057871114">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1910.968@0.0.1910.968" timestamp="1662428259344" />
+    <state width="1873" height="274" key="GridCell.Tab.0.left/0.0.1916.968@0.0.1916.968" timestamp="1663057871114" />
+    <state width="1873" height="274" key="GridCell.Tab.0.right" timestamp="1663057871114">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1910.968@0.0.1910.968" timestamp="1662428259346" />
+    <state width="1873" height="274" key="GridCell.Tab.0.right/0.0.1916.968@0.0.1916.968" timestamp="1663057871114" />
+    <state x="461" y="129" key="SettingsEditor" timestamp="1662686737924">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state x="461" y="129" key="SettingsEditor/0.0.1916.968@0.0.1916.968" timestamp="1662686737924" />
+    <state x="676" y="225" width="540" height="524" key="StructurePopup" timestamp="1662109527759">
+      <screen x="0" y="0" width="1910" height="968" />
+    </state>
+    <state x="676" y="225" width="540" height="524" key="StructurePopup/0.0.1910.968@0.0.1910.968" timestamp="1662109527759" />
+    <state x="329" y="188" key="new project wizard" timestamp="1662171461681">
+      <screen x="0" y="0" width="1910" height="968" />
+    </state>
+    <state x="329" y="188" key="new project wizard/0.0.1910.968@0.0.1910.968" timestamp="1662171461681" />
+    <state x="621" y="207" width="672" height="678" key="search.everywhere.popup" timestamp="1662709153243">
+      <screen x="0" y="0" width="1916" height="968" />
+    </state>
+    <state x="621" y="207" width="672" height="678" key="search.everywhere.popup/0.0.1916.968@0.0.1916.968" timestamp="1662709153243" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrCodec/src/main/java/com/lsx/codec/util/ScaleUtil.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrCodec/src/main/java/com/lsx/codec/util/ScaleUtil.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrCodec/src/main/java/com/lsx/codec/util/ScaleUtil.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrCodec/src/main/java/com/lsx/codec/util/Unicode.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrCodec/src/main/java/com/lsx/codec/util/Unicode.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Charset.availableCharsets()" language="JAVA" />
+        <watch expression="b2[1]&amp;0x00FF" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
