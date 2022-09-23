@@ -1,0 +1,32 @@
+syntax = "proto3"; // 协议版本
+
+// 选项配置
+option java_multiple_files = true;
+option java_package = "io.grpc";
+option java_outer_classname = "SimpleProto";
+
+service Simple {
+    // 简单gRPC
+    rpc OneToOne (MyRequest) returns (MyResponse);
+
+    //服务端流
+    rpc OneToMany (MyRequest) returns (stream MyResponse);
+
+    //客户端流
+    rpc ManyToOne (stream MyRequest) returns (MyResponse);
+
+    //双向流
+    rpc ManyToMany (stream MyRequest) returns (stream MyResponse);
+}
+
+message MyRequest {
+    string name = 1;
+
+    int32 value = 2;
+}
+
+message MyResponse {
+    string message = 1;
+
+    int64 result = 2;
+}
