@@ -1,13 +1,17 @@
 package com.plugin;
 
+import cn.hutool.core.io.IoUtil;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.*;
 
 /**
  * 屏幕工具
+ * 在云桌面里面测试会出现不能用的情况
  *
  * @author laishixiong
  * @time 2022/9/24 10:19
@@ -16,7 +20,7 @@ import java.awt.image.BufferedImage;
 @Slf4j
 public class Screen {
 
-	private volatile Screen screen;
+	private static volatile Screen screen;
 
 	private Robot robot;
 	//屏幕的宽度
@@ -27,13 +31,17 @@ public class Screen {
 	private Screen() {
 	}
 
-	public Screen getSingleton() throws AWTException {
+	public static Screen getSingleton() {
 		if (screen == null) {
 			synchronized (Screen.class) {
 				if (screen == null) {
 					screen = new Screen();
 					screen.reloadScreenInfo();
-					robot = new Robot();
+					try {
+						screen.robot = new Robot();
+					} catch (AWTException e) {
+						throw new RuntimeException(e);
+					}
 				}
 			}
 		}
@@ -79,6 +87,14 @@ public class Screen {
 		//需要截图的区域
 		Rectangle rectangle = new Rectangle(x, y, w, h);
 		BufferedImage bufferedImage = robot.createScreenCapture(rectangle);
+		try {
+			OutputStream outputStream = new FileOutputStream(new File("C:\\lsx\\"));
+			ImageIO.write(bufferedImage,"jpg",outputStream);
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException(e);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
 		return bufferedImage;
 	}
 }

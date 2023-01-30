@@ -12,6 +12,7 @@
     <modules>
         <module>Genericity</module>
         <module>StrCodec</module>
+        <module>Plugin</module>
     </modules>
 
 

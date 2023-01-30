@@ -8,6 +8,7 @@ import java.awt.event.KeyEvent;
 
 /**
  * 鼠标点击
+ * 在云桌面里面测试会出现不能用的情况
  *
  * @author laishixiong
  * @time 2022/9/24 10:19
